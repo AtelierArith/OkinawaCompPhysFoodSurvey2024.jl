@@ -1,4 +1,4 @@
-name: Documentation
+name: Docs
 on:
   push:
     branches: [main]
@@ -7,7 +7,7 @@ on:
   pull_request:
 jobs:
   docs:
-    name: Documentation
+    name: Docs
     runs-on: ubuntu-latest
     permissions:
       contents: write
