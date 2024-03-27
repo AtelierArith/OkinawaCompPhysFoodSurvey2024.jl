@@ -8,6 +8,9 @@ LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
+[compat]
+TOML = "1"
+
 [extras]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
