@@ -27,7 +27,7 @@ jobs:
         run: |
           sudo get update && apt-get install fontconfig
           bash tools/fonts/download_juisee.sh
-      - uses: julia-actions/setup-julia@v1
+      - uses: julia-actions/setup-julia@v2
         with:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
