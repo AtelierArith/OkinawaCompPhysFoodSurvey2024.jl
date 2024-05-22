@@ -8,14 +8,14 @@ df = OkinawaCompPhysFoodSurvey2024.summarize()
 words = collect(countmap(df.food))
 wc_favorite_food = wordcloud(words, fonts=[&quot;Juisee HW:style=Regular&quot;])
 generate!(wc_favorite_food)
-paint(wc_favorite_food, &quot;wc_favorite_food.svg&quot;)</code></pre><img src="index-acfd84ca.svg" alt="Example block output"/><p><img src="wc_favorite_food.svg" alt/></p><p>下記の例はランダムな文字を突っ込んだ例です．人間の皆さん頑張って負けないようにしましょう！</p><pre><code class="language-julia hljs">using Random: randstring
+paint(wc_favorite_food, &quot;wc_favorite_food.svg&quot;)</code></pre><img src="index-ecbc5abe.svg" alt="Example block output"/><p><img src="wc_favorite_food.svg" alt/></p><p>下記の例はランダムな文字を突っ込んだ例です．人間の皆さん頑張って負けないようにしましょう！</p><pre><code class="language-julia hljs">using Random: randstring
 
 using ImageShow
 using WordCloud
 
 wc_random = wordcloud( [randstring(&#39;a&#39;:&#39;z&#39;, 7) for _ in 1:100])
 generate!(wc_random)
-paint(wc_random, &quot;wc_random.svg&quot;)</code></pre><img src="index-2865a2e9.svg" alt="Example block output"/><p><img src="wc_random.svg" alt/></p><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+paint(wc_random, &quot;wc_random.svg&quot;)</code></pre><img src="index-e8ae0817.svg" alt="Example block output"/><p><img src="wc_random.svg" alt/></p><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 mermaid.initialize({
     startOnLoad: true,
     theme: "neutral"
