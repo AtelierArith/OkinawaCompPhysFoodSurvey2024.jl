@@ -22,7 +22,7 @@ jobs:
         arch:
           - x64
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Configure Fonts
         run: |
           sudo get update && apt-get install fontconfig
